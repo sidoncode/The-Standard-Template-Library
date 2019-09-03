@@ -39,6 +39,10 @@ void calc_gcd(){
     cout<<result<<endl;
 }
 //Avoid using strlen for the calculation of the string//
+//below is the algorithm for the finding the length of the string.
+//which is yet to be commited
+
+
 inline void strlenfx(){
     string s = "Example";
     int i;
