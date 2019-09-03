@@ -35,8 +35,17 @@ void calc_gcd(){
     result = __gcd(x, y);
     cout<<result<<endl;
 }
+//Avoid using strlen for the calculation of the string//
+inline void strlenfx(){
+    string s = "Example";
+    int i;
+    for(i =0;s[i];i++){
+
+    }
+}
 int main(){
-    calc_gcd();
+    //calc_gcd();
+    strlenfx();
     getch();
     return 0;
 
