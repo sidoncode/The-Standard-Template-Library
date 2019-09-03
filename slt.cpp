@@ -54,6 +54,7 @@ inline void strlenfx(){
 int main(){
     //calc_gcd();
     strlenfx();
+    lexicographical_compare()// let for the algorithmmm
     getch();
     return 0;
 
