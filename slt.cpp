@@ -18,14 +18,13 @@ for(int i=0;i<10;i++){
 getch();
 return 0;
 }*/
-//g++ slt.cpp -o slt.exe
+//g++ slt.cpp -o slt.exe //The Time-Complexity//
 int main(void){
     int N;
     int Number_of_digits_N;
     cin>> N;
-    Number_of_digits_N=floor(log10(N)) + 1;  
+    Number_of_digits_N=floor(log10(N)) + 1;
     cout<<Number_of_digits_N<<endl;
 getch();
 return 0;
-
 }
