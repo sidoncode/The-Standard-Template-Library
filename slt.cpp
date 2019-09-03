@@ -39,8 +39,9 @@ void calc_gcd(){
 inline void strlenfx(){
     string s = "Example";
     int i;
+    int len;
     for(i =0;s[i];i++){
-
+           
     }
 }
 int main(){
