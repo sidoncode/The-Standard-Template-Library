@@ -41,20 +41,29 @@ void calc_gcd(){
 //Avoid using strlen for the calculation of the string//
 //below is the algorithm for the finding the length of the string.
 //which is yet to be commited
-
-
 inline void strlenfx(){
     string s = "Example";
     int i;
     int len;
     for(i=0;s[i];i++){
-           
+
     }
 }
+namespace first{
+    void func(){
+        cout<<"The first func has been executed "<<endl;
+    }
+}
+namespace second{
+    void func(){
+        cout<<"The second func has been executed "<<endl;
+    }
+}
+
 int main(){
     //calc_gcd();
-    strlenfx();
-    lexicographical_compare()// let for the algorithmmm
+    //strlenfx();
+    first::func();
     getch();
     return 0;
 
