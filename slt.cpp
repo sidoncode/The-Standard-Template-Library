@@ -62,11 +62,11 @@ namespace second{
 }
 
 namespace animal{
-    void sample_func(void){
+    void sample_func(){
         cout<<"Animal namespace has been executed"<<endl;        
     }
     namespace mammals{
-        void sample_func(void){
+        void sample_func(){
             cout<<"Mammals namespace has been executed"<<endl;
         }
     }
@@ -74,15 +74,19 @@ namespace animal{
 // to access members of namespace 2(Namespace mammals)
 // using namespace namespace_name1::namespace_name2;
 
+
 //Here name1 = animal ;; name2  = mammals
 
 
 // to access members of namespace:name1
 // using namespace namespace_name1;
+// for this particular example we will do -- "using namespace animal :: mammals;"
+using namespace animal::mammals;
 int main(){
     //calc_gcd();
     //strlenfx();
-    first::func(); //calling the first namespace with the first func(); with the scope resolution operator
+    //first::func(); //calling the first namespace with the first func(); with the scope resolution operator
+    sample_func();
 
     getch();
     return 0;
