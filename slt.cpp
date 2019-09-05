@@ -91,3 +91,15 @@ int main(){
     getch();
     return 0;
 }
+//below is the example of the use of "and" operator which is the replacement of the "&&"
+/* #include<iostream>
+
+using namespace std;
+
+int main(){
+int a = 5;
+if(a <2 and 10>a)
+    cout<<"executed succesfully"<<endl;
+getch();
+return 0;
+}*/
