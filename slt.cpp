@@ -91,6 +91,7 @@ int main(){
     getch();
     return 0;
 }
+
 //below is the example of the use of "and" operator which is the replacement of the "&&"
 /* #include<iostream>
 
