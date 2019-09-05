@@ -59,12 +59,22 @@ namespace second{
         cout<<"The second func has been executed "<<endl;
     }
 }
-
+namespace animal{
+    void sample_func(){
+        cout<<"Animal namespace has been executed"<<endl;        
+    }
+    namespace mammals{
+        void sample_func(){
+            cout<<"Mammals namespace has been executed"<<endl;
+        }
+    }
+}
+//to access members of namespace 2(Namespace mammals)
 int main(){
     //calc_gcd();
     //strlenfx();
-    first::func();
+    first::func(); //calling the first namespace with the first func(); with the scope resolution operator
+
     getch();
     return 0;
-
 }
