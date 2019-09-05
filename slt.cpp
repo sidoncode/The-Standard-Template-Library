@@ -71,6 +71,13 @@ namespace animal{
     }
 }
 //to access members of namespace 2(Namespace mammals)
+//using namespace namespace_name1::namespace_name2;
+
+
+
+
+// to access members of namespace:name1
+// using namespace namespace_name1;
 int main(){
     //calc_gcd();
     //strlenfx();
