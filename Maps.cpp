@@ -1,5 +1,5 @@
 #include <iostream>
-//#include<bits/stdc++.h>
+//#include <bits/stdc++.h>
 #include <algorithm>
 #include <map>
 #include <iterator>
@@ -20,7 +20,18 @@ m1.insert({11,12});
 m1.insert({13,14});   
 m1.insert({14,15});   
 }
+void disply_map(){
+    map<int,int> m1;
+    map<int,int> ::iterator l;
+    while(!m1.end()){
+        cout<<l->first<<endl<<l->second;
+    }
+}
 int main(){
+    Manually_insert();
+    disply_map();
+}
+int sample(){
 map <int,int> m1;
 map<int,int> ::iterator l;
 for(int i=0; i<10;i++){
