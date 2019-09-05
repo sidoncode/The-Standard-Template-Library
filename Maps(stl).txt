@@ -1,0 +1,13 @@
+*************************************MAPS********************************
+
+C++ Maps are sorted associative containers that contain unique key/value pairs. For
+example, you could create a map that associates a string with an integer, and then use that
+map to associate the number of days in each month with the name of each month.
+
+From the above definition we get that map will have two parameter(_datatype,_datatype)
+
+>> // The intialization/ declaration of the map will be
+>> map<int, int> m1;
+// here m1 -> is the name of the map
+// here map will store the both integer type (int, int)
+>> map<int, int> :: iterator itr
