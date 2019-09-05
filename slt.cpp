@@ -59,12 +59,13 @@ namespace second{
         cout<<"The second func has been executed "<<endl;
     }
 }
+
 namespace animal{
-    void sample_func(){
+    void sample_func(void){
         cout<<"Animal namespace has been executed"<<endl;        
     }
     namespace mammals{
-        void sample_func(){
+        void sample_func(void){
             cout<<"Mammals namespace has been executed"<<endl;
         }
     }
