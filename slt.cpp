@@ -24,6 +24,7 @@ getch();
 return 0;
 }*/
 //g++ slt.cpp -o slt.exe //The Time-Complexity//
+
 void count_the_digits(){
     int N;
     int Number_of_digits_N;
@@ -70,10 +71,10 @@ namespace animal{
         }
     }
 }
-//to access members of namespace 2(Namespace mammals)
-//using namespace namespace_name1::namespace_name2;
+// to access members of namespace 2(Namespace mammals)
+// using namespace namespace_name1::namespace_name2;
 
-
+//Here name1 = animal ;; name2  = mammals
 
 
 // to access members of namespace:name1
