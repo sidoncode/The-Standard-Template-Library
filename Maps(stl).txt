@@ -10,4 +10,7 @@ From the above definition we get that map will have two parameter(_datatype,_dat
 >> map<int, int> m1;
 // here m1 -> is the name of the map
 // here map will store the both integer type (int, int)
->> map<int, int> :: iterator itr
+>> map<int, int> :: iterator itr;
+// for accesing the map we need an pointer/iterator
+
+
