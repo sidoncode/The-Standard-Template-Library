@@ -10,15 +10,15 @@ using namespace std;
 //below is the func of the manually insert of the element in the map
 
 void Manually_insert(void){
-map<int,int> m1;
-m1.insert({1,2});
-m1.insert({3,4});   
-m1.insert({5,6});   
-m1.insert({7,8});   
-m1.insert({9,10});    
-m1.insert({11,12});    
-m1.insert({13,14});   
-m1.insert({14,15});   
+    map<int,int> m1;
+    m1.insert({1,2});
+    m1.insert({3,4});   
+    m1.insert({5,6});   
+    m1.insert({7,8});   
+    m1.insert({9,10});    
+    m1.insert({11,12});    
+    m1.insert({13,14});   
+    m1.insert({14,15});   
 }
 void disply_map(){
     map<int,int> m1;
@@ -31,7 +31,7 @@ int main(){
     Manually_insert();
     disply_map();
 }
-int sample(){
+int Automatic_algo(){
 map <int,int> m1;
 map<int,int> ::iterator l;
 for(int i=0; i<10;i++){
