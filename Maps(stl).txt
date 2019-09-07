@@ -1,4 +1,4 @@
-*************************************MAPS********************************
+*******************************************Maps*******************************************************
 
 C++ Maps are sorted associative containers that contain unique key/value pairs. For
 example, you could create a map that associates a string with an integer, and then use that

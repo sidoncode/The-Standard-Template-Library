@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<algorithm>
 #include<vector>
- 
+
 using namespace std;
 
 int main(){
@@ -12,8 +12,6 @@ int main(){
         cin>> k;
         v1.push_back(k);
     }
-}
-
 getch();
 return 0;
 }
