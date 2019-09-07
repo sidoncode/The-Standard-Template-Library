@@ -1,17 +1,26 @@
-#include<iostream>
-#include<conio.h>
-#include<algorithm>
-#include<vector>
+#include <iostream>
+#include <conio.h>
+#include <algorithm>
+#include <vector>
+#include <iterator>
 
 using namespace std;
 
-int main(){
+//below is the fx of displaying the vector using iterators
+void vector_disp(){
     vector <int> v1;
-    int k;
-    for(int i = 0;i<2;i++){
-        cin>> k;
-        v1.push_back(k);
+    for(int i=0;i<5;i++){
+        v1.push_back(i);
     }
-getch();
-return 0;
+    vector<int>::iterator it; 
+    for(it = v1.begin(); it !=v1.end();it++) {
+        cout << *it << endl;
+    }
+}
+
+
+int main(){
+    vector_disp();
+    getch();
+    return 0;
 }
