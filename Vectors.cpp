@@ -12,8 +12,6 @@ int main(){
         cin>> k;
         v1.push_back(k);
     }
-while(!v1.empty()){
-    cout<<v1;
 }
 
 getch();
