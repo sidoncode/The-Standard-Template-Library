@@ -13,7 +13,7 @@ void vector_disp(){
         v1.push_back(i);
     }
     vector<int>::iterator it; 
-    for(it = v1.begin(); it !=v1.end();it++) {
+    for(it = v1.begin(); it !=v1.end();it++){
         cout << *it << endl;
     }
 }
