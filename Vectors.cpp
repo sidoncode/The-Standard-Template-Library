@@ -6,7 +6,7 @@
 
 using namespace std;
 
-//below is the fx of displaying the vector using iterators
+//below is the function of displaying the vector using iterators
 void vector_disp(){
     vector <int> v1;
     for(int i=0;i<5;i++){
@@ -17,10 +17,12 @@ void vector_disp(){
         cout << *it << endl;
     }
 }
-
-
+// iterator are the pointer type variable which point the address of the element to the respective container
+// vector, maps, set.. are some examples of the container
 int main(){
     vector_disp();
     getch();
     return 0;
 }
+
+
