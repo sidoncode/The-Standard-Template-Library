@@ -1,6 +1,6 @@
-#include<iostream>
-#include<conio.h>
-#include<algorithm>
+#include <iostream>
+#include <conio.h>
+#include <algorithm>
 
 using namespace std;
 
@@ -8,15 +8,19 @@ class example{
 private:
     int a;
 public:
-    example(){
+    /*example(){
         a = 5;
+    }*/
+    ~example(){
+       a = 1;
     }
-    void assign(){
+    void disp(){
         cout<< a<<endl;
     }
 };
+
 int main(){
-void example :: assign();
-return 0;
-getch();
+    example e;
+    e.disp();
+    getch();
 }
