@@ -3,6 +3,7 @@
 #include <algorithm> //for the upperbound and lower bound
 #include <vector>
 #include <iterator>
+
 using namespace std;
 
 //below is the function of displaying the vector using iterators
