@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class example{
+/*class example{
 private:
     int a;
 public:
@@ -13,12 +13,19 @@ public:
         cout<<"The Value of a is"<<a<<endl;
     }
     void disp(){
-        cout<<"The Value of a is "<<a<<endl;
+        cout<<"The Value of a is"<<a<<endl;
     }
-};
+};*/
+
 //Here the example of the destructor which destroys itself when the data is passed.
 //so the a = 3 is the garbage value which is displayed
+class example{
+private:
 
+public:
+    example
+
+};
 int main(){
     example e;
     e.~example();
