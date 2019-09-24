@@ -19,16 +19,38 @@ public:
 
 //Here the example of the destructor which destroys itself when the data is passed.
 //so the a = 3 is the garbage value which is displayed
+
 class example{
 private:
-
+    int a,b;
 public:
-    example
+    example(){
+        a = 5;
+        b = 10;
+    }
+    void disp(){
+        cout<< a<<endl<< b<<endl;
+    }
+};
+/* The redeclaration of the datatype will not be there (in the constructor part) */
+
+                                                            /*
+    below is the application of the scope resolution operator
+                                                            */
+
+
+class demo{
+    private:
+
+    public:
+
 
 };
+
+
 int main(){
     example e;
-    e.~example();
+    //e.~example();
     cout<<"Below is the executed fx of disp();"<<endl;
     e.disp();
     getch();
