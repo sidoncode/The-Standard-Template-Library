@@ -41,9 +41,11 @@ public:
 
 class demo{
     private:
-
+        int a,b;
     public:
-
+    demo(){
+        
+    }
 
 };
 
