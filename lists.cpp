@@ -9,11 +9,6 @@ using namespace std;
 list <int> l1;
 list <int>::iterator it;
 
-
-void init_list(){
-    
-}
-
 void display(){
     for (it = l1.begin();it != l1.end(); it++){
         cout<<*it<<endl;
