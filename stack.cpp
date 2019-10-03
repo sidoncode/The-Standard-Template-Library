@@ -27,4 +27,5 @@ int main(){
     cout<<"Below is the displaying of the data"<<endl;
     show_stack();
 getch();
-return 0;}
+return 0;
+}
