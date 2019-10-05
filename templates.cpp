@@ -3,6 +3,9 @@
 
 using namespace std;
 
+//Below is the syntax of the template that is to done in CPP
+
+
 template <class T>
 T Large(T n1, T n2){
 	return (n1 > n2) ? n1 : n2;
