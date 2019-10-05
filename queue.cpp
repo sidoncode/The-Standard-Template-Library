@@ -2,8 +2,12 @@
 #include<conio.h>
 #include<algorithm>
 #include<queue>
+#include<string>
+#include<stddef.h>
 
 using namespace std;
+
+
 
 //Below are the global variable of the code
 queue <int> q;
