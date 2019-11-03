@@ -81,6 +81,7 @@ namespace animal{
 // to access members of namespace:name1
 // using namespace namespace_name1;
 // for this particular example we will do -- "using namespace animal::mammals;"
+
 using namespace animal::mammals;
 int main(){
     //calc_gcd();
