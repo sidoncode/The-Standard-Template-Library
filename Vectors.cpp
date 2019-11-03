@@ -17,6 +17,7 @@ void vector_disp(){
         cout << *it << endl;
     }
 }
+
 void Upper_lower(){
     vector <int> v1;
     for(int i = 0;i<5;i++){
